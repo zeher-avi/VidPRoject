@@ -1,14 +1,17 @@
 {
   "name": "vidsharing",
   "version": "1.0.0",
-  "description": "Video sharing app made by latest backend knowlege",
+  "description": "Video sharing app made by latest backend knowledge",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "avi",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.1",
     "prettier": "^3.1.0"
   }
 }
